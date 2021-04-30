@@ -1,0 +1,46 @@
+.page {
+    background-color: #ffffdd;
+    min-height: 100%;
+    padding: 250px 15% 0 15%;
+    margin: 0;
+    color: #444400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.cursive {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+    border: 20px solid #ffff55;
+    padding: 15px;
+}
+
+.block.main {
+    display: flex;
+}
+
+.avatar {
+    height: 350px;
+}
+
+.no-markers {
+    list-style: none;
+}
+
+.contacts {
+    margin-top: 15px;
+    margin-left: 20px;
+}
