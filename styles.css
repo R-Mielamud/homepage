@@ -41,6 +41,38 @@ h6,
 }
 
 .contacts {
-    margin-top: 15px;
+    margin-top: 40px;
     margin-left: 20px;
+}
+
+.contacts > li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contacts > li:last-child {
+    margin-bottom: 0;
+}
+
+img.icon {
+    height: 28px;
+    width: auto;
+}
+
+img.icon.padding {
+    margin-right: 10px;
+}
+
+a {
+    color: #0066aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+    color: #0055aa;
 }
