@@ -20,6 +20,7 @@ h6,
 .header {
     margin-bottom: 20px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .content {
@@ -30,6 +31,13 @@ h6,
 
 .block.main {
     display: flex;
+}
+
+.block.intro {
+    text-align: center;
+    width: 100%;
+    font-style: italic;
+    font-size: 32px;
 }
 
 .avatar {
