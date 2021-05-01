@@ -27,7 +27,7 @@ h6,
     letter-spacing: 2px;
 }
 
-.content {
+.page-content {
     background-color: white;
     border: 20px solid #ffff55;
     padding: 15px;
@@ -35,6 +35,7 @@ h6,
 
 .block.main {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .block.intro {
@@ -117,4 +118,59 @@ a:active {
 .timeline > .event > .date {
     color: #888800;
     margin-right: 10px;
+}
+
+.accordion {
+    position: relative;
+}
+
+.accordion > .checkbox {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    opacity: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.accordion {
+    margin-top: 15px;
+}
+
+.accordion > .expander-img {
+    transition-property: transform;
+    transition-duration: 0.2s;
+    width: 15px;
+    height: 15px;
+    top: 11px;
+    left: 1px;
+    position: absolute;
+}
+
+.accordion > .checkbox:checked ~ .expander-img {
+    transform: rotateZ(90deg);
+}
+
+.accordion > .checkbox:checked ~ .content {
+    max-height: 100vh;
+    opacity: 1;
+}
+
+.accordion > .content {
+    transition-property: max-height, opacity;
+    transition-duration: 0.2s;
+    max-height: 0;
+    opacity: 0;
+}
+
+.accordion .title {
+    margin: 0;
+    display: inline;
+    padding-left: 25px;
 }
