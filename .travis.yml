@@ -18,7 +18,7 @@ deploy:
 		skip_cleanup: true
 		access_key_id: $AWS_ACCESS_KEY_ID
 		secret_access_key: $AWS_SECRET_ACCESS_KEY
-		bucket: hemopage21.resume-production
+		bucket: homepage21.resume-production
 		region: eu-west-2
 		acl: public_read
 		on:
