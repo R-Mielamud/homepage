@@ -22,7 +22,8 @@ h6,
 }
 
 .page-content {
-	background-color: white;
+	background-color: #ffffffdd;
+	background-blend-mode: screen;
 	border: 20px solid #ffff55;
 	padding: 15px;
 }
