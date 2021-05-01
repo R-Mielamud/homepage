@@ -1,0 +1,38 @@
+@media all and (max-width: 1000px) {
+	.page {
+		padding: 100px 10% 50px 10%;
+	}
+}
+
+@media all and (max-width: 750px) {
+	.block.columns {
+		flex-direction: column;
+	}
+
+	.column:first-child {
+		margin-right: 0 !important;
+	}
+
+	.column {
+		width: 100% !important;
+	}
+
+	.block.main {
+		flex-direction: column;
+	}
+
+	.avatar {
+		margin: 0 auto;
+	}
+
+	.contacts {
+		margin-left: 0;
+		padding: 0;
+	}
+}
+
+@media all and (max-width: 550px) {
+	.page {
+		padding: 50px 2% 20px 2%;
+	}
+}
