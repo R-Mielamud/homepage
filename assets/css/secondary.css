@@ -1,0 +1,29 @@
+.block.columns {
+	display: flex;
+}
+
+.columns > .column {
+	width: calc(50% - 10px);
+}
+
+.columns > .column:first-child {
+	margin-right: 20px;
+}
+
+.timeline {
+	padding-inline-start: 15px;
+	line-height: 22px;
+}
+
+.timeline > .event {
+	margin-bottom: 15px;
+}
+
+.timeline > .event:last-child {
+	margin-bottom: 0;
+}
+
+.timeline > .event > .date {
+	color: #888800;
+	margin-right: 10px;
+}
