@@ -1,0 +1,47 @@
+.accordion {
+	margin-top: 15px;
+	position: relative;
+}
+
+.accordion > .checkbox {
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	opacity: 0;
+	margin: 0;
+	z-index: 2;
+}
+
+.accordion > .expander-img {
+	transition-property: transform;
+	transition-duration: 0.2s;
+	width: 15px;
+	height: 15px;
+	top: 11px;
+	left: 1px;
+	position: absolute;
+}
+
+.accordion > .checkbox:checked ~ .expander-img {
+	transform: rotateZ(90deg);
+}
+
+.accordion > .checkbox:checked ~ .content {
+	max-height: 100vh;
+	opacity: 1;
+}
+
+.accordion > .content {
+	transition-property: max-height, opacity;
+	transition-duration: 0.2s;
+	max-height: 0;
+	opacity: 0;
+}
+
+.accordion .title {
+	margin: 0;
+	display: inline;
+	padding-left: 25px;
+}
