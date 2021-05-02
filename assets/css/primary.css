@@ -73,7 +73,7 @@
 #dogFriendly > .slider {
 	width: 50px;
 	height: 20px;
-	background-color: #eeeeee;
+	background-color: #eee;
 	border-radius: 10px;
 }
 
@@ -82,7 +82,7 @@
 }
 
 #dogFriendly > .checkbox:checked ~ .slider {
-	background-color: #ffff55;
+	background-color: #ff5;
 }
 
 #dogFriendly > .checkbox:checked ~ .switcher {
