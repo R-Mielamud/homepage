@@ -1,9 +1,9 @@
 .page {
-	background-color: #ffffdd;
+	background-color: #ffd;
 	min-height: 100%;
 	padding: 150px 20% 70px 20%;
 	margin: 0;
-	color: #444400;
+	color: #440;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,9 +22,9 @@ h6,
 }
 
 .page-content {
-	background-color: #ffffffdd;
+	background-color: #fffd;
 	background-blend-mode: screen;
-	border: 20px solid #ffff55;
+	border: 20px solid #ff5;
 	padding: 15px;
 }
 
@@ -33,7 +33,7 @@ h6,
 }
 
 a {
-	color: #0066aa;
+	color: #06a;
 	text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 
 a:active {
 	text-decoration: none;
-	color: #0055aa;
+	color: #05a;
 }
 
 img.icon {
